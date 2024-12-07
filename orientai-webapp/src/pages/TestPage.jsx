@@ -105,11 +105,11 @@ const TestPage = () => {
       var humanasPerCent = (areaHumanas / hundred) * 100;
 
       const areaData = [
-        { area: "Saúde", percentage: Math.round(saudePerCent) },
-        { area: "Ciências Jurídicas", percentage: Math.round(juridicaPerCent) },
-        { area: "TI e Computação", percentage: Math.round(tIPerCent) },
-        { area: "Gestão e Negócios", percentage: Math.round(gestNegPerCent) },
-        { area: "Humanas", percentage: Math.round(humanasPerCent) },
+        { area: "Saúde", percentage: Math.round(saudePerCent), id: 0},
+        { area: "Ciências Jurídicas", percentage: Math.round(juridicaPerCent) , id: 1},
+        { area: "TI e Computação", percentage: Math.round(tIPerCent) , id: 2},
+        { area: "Gestão e Negócios", percentage: Math.round(gestNegPerCent) , id: 3},
+        { area: "Humanas", percentage: Math.round(humanasPerCent) , id: 4},
       ];
 
       navigate("/results", { state: { areaData } });

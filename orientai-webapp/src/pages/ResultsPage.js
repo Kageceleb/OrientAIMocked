@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PieChart from "../components/PieChart";
 import "./styles.css";
@@ -8,12 +8,47 @@ const ResultsPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const mockedAnswersPerArea = mockedAnswers.areas;
+  const {areaData} = location.state || { areaData: [] };
 
-  const { areaData } = location.state || { areaData: [] };
+  var primaryArea = setPArea();
+  var secondaryArea = setSArea();
+
 
   const handleRetakeTest = () => {
     navigate("/test");
   };
+
+//  function setAreas(){
+
+//     areaData.sort((a, b) => b.percentage -= a.percentage);
+
+//     primaryArea = areaData[0];
+//     secondaryArea = areaData[1];
+
+//     console.log(primaryArea);
+//     console.log(secondaryArea);
+//   }
+//   setAreas();
+
+  function setPArea(){
+    areaData.sort((a, b) => b.percentage - a.percentage);
+
+    var parea = areaData[0].id;
+
+    var pareaDescricao = mockedAnswersPerArea[parea].comentarios.primaria;
+
+    return pareaDescricao;
+  }
+
+  function setSArea(){
+    areaData.sort((a, b) => b.percentage - a.percentage);
+
+    var sarea = areaData[1].id;
+
+    var sareaDescricao = mockedAnswersPerArea[sarea].comentarios.secundaria;
+
+    return sareaDescricao;
+  }
 
   return (
     <div className="container-gradient">
@@ -28,20 +63,11 @@ const ResultsPage = () => {
 
         <div className="result-comments">
           <p className="result-first">
-            Com base nas suas respostas, a área da Saúde parece ser a mais
-            compatível com seu perfil. Esse campo oferece a oportunidade de
-            impactar diretamente a vida das pessoas, exigindo dedicação, empatia
-            e habilidades para lidar com situações desafiadoras. Profissões na
-            Saúde são recompensadoras e podem satisfazer seu desejo de
-            contribuir com o bem-estar dos outros.
+            {primaryArea}
           </p>
 
           <p className="result-second">
-            As Ciências Jurídicas podem ser uma alternativa interessante,
-            oferecendo um ambiente dinâmico e com potencial para aplicar suas
-            habilidades analíticas e de comunicação. Este campo pode ser um
-            caminho alternativo valioso, caso você deseje um setor estruturado e
-            desafiador.
+            {secondaryArea}
           </p>
         </div>
 
