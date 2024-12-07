@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kageceleb/OrientAIMocked/static/css/main.5ddc4ae7.css",
+    "main.js": "/Kageceleb/OrientAIMocked/static/js/main.d173cce2.js",
+    "index.html": "/Kageceleb/OrientAIMocked/index.html",
+    "main.5ddc4ae7.css.map": "/Kageceleb/OrientAIMocked/static/css/main.5ddc4ae7.css.map",
+    "main.d173cce2.js.map": "/Kageceleb/OrientAIMocked/static/js/main.d173cce2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ddc4ae7.css",
+    "static/js/main.d173cce2.js"
+  ]
+}
