@@ -1,6 +1,10 @@
 .slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0px;
+  gap: 35px;
 }
 
 .emoticon-display {
@@ -11,14 +15,19 @@
   margin-bottom: 10px;
 }
 
+.emoticon-display p {
+  color: #008884;
+}
+
 .emoticon {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 10px;
   transition: transform 0.3s ease;
 }
 
 .slider {
-  width: 100%;
+  width: 80%;
+  align-self: center;
   margin-top: 20px;
   -webkit-appearance: none;
   appearance: none;
