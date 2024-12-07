@@ -1,0 +1,179 @@
+{
+    "perguntas": [
+        {
+            "id": 1,
+            "idArea": 1,
+            "descricao": "Compreender o funcionamento do nosso organismo através das estruturas e dos ciclos celulares",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 2,
+            "idArea": 1,
+            "descricao": "Descobrir a importância da regulação e integração dos sistemas corporais para o funcionamento adequado do organismo humano.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 3,
+            "idArea": 1,
+            "descricao": "Compreender a regulação e integração dos sistemas corporais, diferenciando os tipos celulares, a estrutura e a função dos órgãos.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 4,
+            "idArea": 1,
+            "descricao": "Compreender como as diferenças culturais, sociais, econômicas e políticas desenvolvem a promoção da saúde",
+            "peso": 3,
+            "ativo": "S"
+        },
+        {
+            "id": 5,
+            "idArea": 1,
+            "descricao": "Avaliar o modelo de saúde vigente no Brasil e sua construção relacionada aos aspectos sociais da saúde",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 6,
+            "idArea": 5,
+            "descricao": "Descobrir como ocorrem os processos de ensino aprendizagem nos contextos escolares e não escolares.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 7,
+            "idArea": 5,
+            "descricao": "Atender pacientes para contribuir com o desenvolvimento psicológico dos seres humanos",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 8,
+            "idArea": 5,
+            "descricao": "Pesquisar quais fatores interferem na construção da personalidade dos sujeitos.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 9,
+            "idArea": 5,
+            "descricao": "Aplicar os variados métodos de ensino em em diferentes contextos socioculturais.",
+            "peso": 3,
+            "ativo": "S"
+        },
+        {
+            "id": 10,
+            "idArea": 2,
+            "descricao": "Investigar como os Direitos Humanos podem auxiliar na solução de problemas atuais do Brasil.",
+            "peso": 3,
+            "ativo": "S"
+        },
+        {
+            "id": 11,
+            "idArea": 2,
+            "descricao": "Examinar as relações entre Direito e Justiça para assegurar a ética e a moral.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 12,
+            "idArea": 2,
+            "descricao": "Reconhecer a atuação do juiz e os tipos de provas na relação processual.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 13,
+            "idArea": 2,
+            "descricao": "Atuar na defesa jurídica de um indivíduo que foi vítima de violência.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 14,
+            "idArea": 3,
+            "descricao": "Construir algoritmos e estruturas de dados eficientes para contribuir com o desenvolvimento de soluções de sistemas.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 15,
+            "idArea": 3,
+            "descricao": "Desenvolver aplicativos que solucionem problemas trazidos por grandes empresas.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 16,
+            "idArea": 3,
+            "descricao": "Entender a funcionalidade da internet das coisas {IoT} em um mundo conectado.",
+            "peso": 3,
+            "ativo": "S"
+        },
+        {
+            "id": 17,
+            "idArea": 3,
+            "descricao": "Desenvolver programas que protejam contra as ameaças e vulnerabilidades nos sistemas da tecnologia da informação.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 18,
+            "idArea": 4,
+            "descricao": "Desenvolver técnicas de negociação e analisar alternativas para a solução de conflitos em uma organização.",
+            "peso": 3,
+            "ativo": "S"
+        },
+        {
+            "id": 19,
+            "idArea": 4,
+            "descricao": "Realizar diagnóstico empresarial a partir de ferramentas de mapeamento e construir um planejamento estratégico.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 20,
+            "idArea": 4,
+            "descricao": "Trabalhar com os processos relativos a abertura de uma empresa com criatividade e inovação.",
+            "peso": 5,
+            "ativo": "S"
+        },
+        {
+            "id": 21,
+            "idArea": 4,
+            "descricao": "Elaborar e gerenciar o planejamento financeiro das organizações de forma estratégica, eficaz e eficiente.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 22,
+            "idArea": 5,
+            "descricao": "Trabalhar com a garantia de direitos e cidadania nas diversas configurações familiares.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 23,
+            "idArea": 3,
+            "descricao": "Construir tendências tecnológicas que contribuam com empresas que visam a sustentabilidade do planeta",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 24,
+            "idArea": 4,
+            "descricao": "Conhecer diferentes modelos de gestão de pessoas para contribuir com o crescimento do negócio, sendo reconhecido em seu local de trabalho.",
+            "peso": 4,
+            "ativo": "S"
+        },
+        {
+            "id": 25,
+            "idArea": 2,
+            "descricao": "Dominar os fundamentos jurídicos para defender um cliente que foi acusado de forma equivocada",
+            "peso": 4,
+            "ativo": "S"
+        }
+    ]
+}

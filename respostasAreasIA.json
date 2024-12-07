@@ -1,0 +1,209 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "nome": "Saúde",
+      "comentarios": {
+        "primaria": "Com base nas suas respostas, a área da Saúde parece ser a mais compatível com seu perfil. Esse campo oferece a oportunidade de impactar diretamente a vida das pessoas, exigindo dedicação, empatia e habilidades para lidar com situações desafiadoras. Profissões na Saúde são recompensadoras e podem satisfazer seu desejo de contribuir com o bem-estar dos outros.",
+        "secundaria": "Embora a Saúde não seja sua área de maior afinidade, ela ainda é uma escolha promissora para suas habilidades e interesses. Esse campo permite que você explore carreiras voltadas ao cuidado e bem-estar das pessoas, podendo trazer realizações pessoais e profissionais.",
+        "cursos": [
+          {
+            "id": "Biomedicina",
+            "titulo": 1,
+            "descricao": "Formação para atuar em análises clínicas, diagnósticos e pesquisa científica."
+          },
+          {
+            "id": "Educação Física",
+            "titulo": 2,
+            "descricao": "Capacitação para promover saúde e bem-estar por meio de atividades físicas."
+          },
+          {
+            "id": "Enfermagem",
+            "titulo": 3,
+            "descricao": "Preparo para cuidar da saúde e prestar assistência em diversas áreas médicas."
+          },
+          {
+            "id": "Estética e Cosmética",
+            "titulo": 4,
+            "descricao": "Desenvolvimento de técnicas para cuidados com a beleza e bem-estar."
+          },
+          {
+            "id": "Fisioterapia",
+            "titulo": 5,
+            "descricao": "Treinamento para reabilitar e prevenir disfunções físicas e motoras."
+          },
+          {
+            "id": "Nutrição",
+            "titulo": 6,
+            "descricao": "Formação para planejar dietas e promover alimentação saudável."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Ciências Jurídicas",
+      "comentarios": {
+        "primaria": "Sua análise de perfil sugere que as Ciências Jurídicas podem ser a melhor área para você. Este campo valoriza a justiça, argumentação e pensamento crítico, características que parecem alinhadas ao seu perfil. Carreiras aqui oferecem a chance de atuar em defesa dos direitos e de contribuir para uma sociedade mais justa.",
+        "secundaria": "As Ciências Jurídicas podem ser uma alternativa interessante, oferecendo um ambiente dinâmico e com potencial para aplicar suas habilidades analíticas e de comunicação. Este campo pode ser um caminho alternativo valioso, caso você deseje um setor estruturado e desafiador.",
+        "cursos": [
+          {
+            "id": "Direito",
+            "titulo": 1,
+            "descricao": "Capacitação em leis e justiça para atuar como advogado ou em carreiras jurídicas."
+          },
+          {
+            "id": "Segurança Privada",
+            "titulo": 2,
+            "descricao": "Preparo para atuar na proteção de pessoas, bens e informações."
+          },
+          {
+            "id": "Serviços Notariais e Registrais",
+            "titulo": 3,
+            "descricao": "Capacitação para atividades em cartórios e registros públicos."
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "nome": "TI e Computação",
+      "comentarios": {
+        "primaria": "Os resultados indicam que a área de TI e Computação é altamente compatível com seu perfil. Com muitas oportunidades em programação, análise de dados e cibersegurança, este campo é ideal para quem gosta de resolver problemas e trabalhar com inovações tecnológicas. Sua afinidade com tecnologia pode fazer desta área um ambiente estimulante e dinâmico.",
+        "secundaria": "Embora TI e Computação não sejam a principal sugestão, esta área ainda oferece um potencial considerável. Suas habilidades podem ser bem aplicadas em carreiras que envolvem tecnologia e inovação, proporcionando flexibilidade e desenvolvimento constante.",
+        "cursos": [
+          {
+            "id": "Análise e Desenvolvimento de Sistemas",
+            "titulo": 1,
+            "descricao": "Preparo para criar e gerenciar software."
+          },
+          {
+            "id": "Ciência da Computação",
+            "titulo": 2,
+            "descricao": "Estudo avançado de tecnologia, algoritmos e programação."
+          },
+          {
+            "id": "Gestão da Tecnologia da Informação",
+            "titulo": 3,
+            "descricao": "Preparo para gerenciar infraestrutura e projetos de TI."
+          },
+          {
+            "id": "Jogos Digitais",
+            "titulo": 4,
+            "descricao": "Desenvolvimento de habilidades para criar jogos e experiências interativas."
+          },
+          {
+            "id": "Redes de Computadores",
+            "titulo": 5,
+            "descricao": "Formação para projetar e manter redes de comunicação."
+          },
+          {
+            "id": "Sistemas de Informação",
+            "titulo": 6,
+            "descricao": "Preparo para integrar tecnologia e negócios"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Gestão de Negócios",
+      "comentarios": {
+        "primaria": "Seu perfil sugere que a Gestão de Negócios pode ser a área ideal para você. Esse setor valoriza habilidades organizacionais, visão estratégica e liderança, e pode ser um ótimo caminho para quem gosta de planejar e tomar decisões. Aqui, você encontrará oportunidades para crescer em um ambiente dinâmico e desafiador.",
+        "secundaria": "Gestão de Negócios também se mostra uma boa alternativa, mesmo que não seja a principal recomendação. Este campo permite desenvolver habilidades em liderança e organização, que são essenciais e aplicáveis em vários tipos de empresas e setores.",
+        "cursos": [
+          {
+            "id": "Administração",
+            "titulo": 1,
+            "descricao": "Formação para gerenciar recursos e liderar organizações."
+          },
+          {
+            "id": "Ciências Contábeis",
+            "titulo": 2,
+            "descricao": "Preparo para controlar e analisar as finanças de empresas."
+          },
+          {
+            "id": "Ciências Econômicas",
+            "titulo": 3,
+            "descricao": "Estudo do mercado, economia e estratégias financeiras."
+          },
+          {
+            "id": "Gestão ComerciaL",
+            "titulo": 4,
+            "descricao": "Formação para gerenciar equipes e estratégias de vendas."
+          },
+          {
+            "id": "Gestão da Qualidade",
+            "titulo": 5,
+            "descricao": "Desenvolvimento de processos para garantir eficiência e excelência."
+          },
+          {
+            "id": "Gestão de Recursos Humanos",
+            "titulo": 6,
+            "descricao": "Capacitação para gerenciar talentos e equipes."
+          },
+          {
+            "id": "Gestão Financeira",
+            "titulo": 7,
+            "descricao": "Formação para planejar e controlar finanças corporativas."
+          },
+          {
+            "id": "Logística",
+            "titulo": 8,
+            "descricao": "Desenvolvimento de soluções para transporte, estoque e distribuição."
+          },
+          {
+            "id": "Marketing",
+            "titulo": 9,
+            "descricao": "Estudo de estratégias para atrair e fidelizar clientes."
+          },
+          {
+            "id": "Marketing Digital",
+            "titulo": 10,
+            "descricao": "Formação para estratégias de promoção no ambiente online."
+          },
+          {
+            "id": "Negócios Digitais",
+            "titulo": 11,
+            "descricao": "Capacitação para empreender e inovar em mercados digitais."
+          },
+          {
+            "id": "Processos Gerenciais",
+            "titulo": 12,
+            "descricao": "Formação em gestão de pequenas e médias empresas."
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Humanas",
+      "comentarios": {
+        "primaria": "Seu perfil indica uma forte compatibilidade com a área de Humanas, onde sua habilidade de entender e se comunicar com as pessoas será valorizada. Profissões neste campo, como educação e psicologia, permitem explorar o comportamento humano e oferecem um trabalho repleto de significado e impacto social.",
+        "secundaria": "A área de Humanas pode ser uma alternativa interessante para seu perfil, mesmo não sendo a principal sugestão. Suas habilidades interpessoais e de comunicação podem ser bem aplicadas em diversos contextos, fazendo desta área uma escolha rica em propósito e com oportunidades variadas.",
+        "cursos": [
+          {
+            "id": "História",
+            "titulo": 1,
+            "descricao": "Estudo e análise do passado para compreender o presente e construir o futuro."
+          },
+          {
+            "id": "Pedagogia",
+            "titulo": 2,
+            "descricao": "Capacitação para atuar na educação infantil e no ensino fundamental."
+          },
+          {
+            "id": "Psicologia",
+            "titulo": 3,
+            "descricao": "Desenvolvimento de habilidades para compreender e promover a saúde mental."
+          },
+          {
+            "id": "Serviço Social",
+            "titulo": 4,
+            "descricao": "Formação para intervir em questões sociais e promover cidadania."
+          }
+        ]
+      }
+    }
+  ]
+}
