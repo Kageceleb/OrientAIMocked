@@ -62,7 +62,7 @@ const ResultsPage = () => {
   }
 
   return (
-    <div className="container-gradient">
+    <div className="container-gradient-result">
       <div className="result-container">
         <header className="result-header">
           <h1>Resultado do seu Teste</h1>
@@ -73,13 +73,17 @@ const ResultsPage = () => {
         <div className="separator" />
 
         <div className="result-comments">
-          <p className="result-first">
-            {primaryArea}
-          </p>
+          <div className="white-card-result">
+            <p className="result-first">
+              {primaryArea}
+            </p>
+          </div>
 
-          <p className="result-second">
-            {secondaryArea}
-          </p>
+          <div className="white-card-result">
+            <p className="result-second">
+              {secondaryArea}
+            </p>
+          </div>
         </div>
 
         <div className="separator" />
@@ -88,13 +92,13 @@ const ResultsPage = () => {
 
         <div className="result-comments">
           {
-            cursos.map((c) => {          
-                return (
-                <div>
+            cursos.map((c) => {
+              return (
+                <div className="white-card-result">
                   <h3>{c.titulo}</h3>
                   <p className="result-first">{c.descricao}</p>
-                  <a>Conheça o curso</a>
-                </div>);     
+                  <a href="#">Conheça o curso</a>
+                </div>);
             })
           }
         </div>
@@ -112,7 +116,7 @@ const ResultsPage = () => {
           <p>AnimaHub © 2024 - OrientAI - Professor Flávio Treib</p>
         </footer>
       </div>
-    </div>
+    </div >
   );
 };
 
