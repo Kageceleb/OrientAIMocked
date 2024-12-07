@@ -1,0 +1,56 @@
+.progress-bar-container {
+  background: linear-gradient(90deg, #bbbbbb 35%, #e0e0e0 100%);
+  border-radius: 10px;
+  width: 100%;
+  height: 30px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  transition: width 0.3s ease-in-out;
+  background: linear-gradient(270deg, #42a141, #43c243);
+  background-size: 400% 400%;
+  -webkit-animation: progressGradient 12s ease infinite;
+  -moz-animation: progressGradient 12s ease infinite;
+  animation: progressGradient 13s ease infinite;
+}
+
+@-webkit-keyframes progressGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes progressGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes progressGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
