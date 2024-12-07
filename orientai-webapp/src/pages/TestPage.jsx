@@ -5,24 +5,16 @@ import Logo from "../components/Logo";
 import ProgressBar from "../components/ProgressBar";
 import SliderWithEmoticons from "../components/SliderWithEmoticons";
 import "./styles.css";
+import mockedQuestions from "../perguntasMock.json";
 
 const TestPage = () => {
-  // const [areaData, setAreaData] = useState([]);
   const navigate = useNavigate();
   const location = useLocation(1);
-
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [loading, setLoading] = useState(false);
   const [answers, setAnswers] = useState([]);
-  const [questions, setQuestions] = useState([]);
   const { userId } = 1;
-
-  useEffect(() => {
-    fetch("http://localhost:3000/questions")
-      .then((response) => response.json())
-      .then((data) => setQuestions(data))
-      .catch((error) => console.error("Erro ao buscar perguntas:", error));
-  }, []);
+  const questions = mockedQuestions.perguntas;
 
   useEffect(() => {
     const updatedAnswers = [...answers];
@@ -78,17 +70,6 @@ const TestPage = () => {
           idPergunta: i + 1, //questions[i]?.id,
           idEscala: answers[i],
         };
-
-        const response = await fetch("http://localhost:3000/answer", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        });
-
-        if (!response.ok) {
-          throw new Error(`Erro ao enviar resposta da pergunta ${i + 1}`);
-        }
-
         switch (questions[i]?.idArea) {
           case 1:
             areaSaude = areaSaude + answers[i] * questions[i]?.peso;

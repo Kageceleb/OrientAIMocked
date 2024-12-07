@@ -2,10 +2,12 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PieChart from "../components/PieChart";
 import "./styles.css";
+import mockedAnswers from "../respostasAreasIA.json";
 
 const ResultsPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const mockedAnswersPerArea = mockedAnswers.areas;
 
   const { areaData } = location.state || { areaData: [] };
 
@@ -26,11 +28,20 @@ const ResultsPage = () => {
 
         <div className="result-comments">
           <p className="result-first">
-            Com base nas suas respostas, a área da Saúde parece ser a mais compatível com seu perfil. Esse campo oferece a oportunidade de impactar diretamente a vida das pessoas, exigindo dedicação, empatia e habilidades para lidar com situações desafiadoras. Profissões na Saúde são recompensadoras e podem satisfazer seu desejo de contribuir com o bem-estar dos outros.
+            Com base nas suas respostas, a área da Saúde parece ser a mais
+            compatível com seu perfil. Esse campo oferece a oportunidade de
+            impactar diretamente a vida das pessoas, exigindo dedicação, empatia
+            e habilidades para lidar com situações desafiadoras. Profissões na
+            Saúde são recompensadoras e podem satisfazer seu desejo de
+            contribuir com o bem-estar dos outros.
           </p>
 
           <p className="result-second">
-            As Ciências Jurídicas podem ser uma alternativa interessante, oferecendo um ambiente dinâmico e com potencial para aplicar suas habilidades analíticas e de comunicação. Este campo pode ser um caminho alternativo valioso, caso você deseje um setor estruturado e desafiador.
+            As Ciências Jurídicas podem ser uma alternativa interessante,
+            oferecendo um ambiente dinâmico e com potencial para aplicar suas
+            habilidades analíticas e de comunicação. Este campo pode ser um
+            caminho alternativo valioso, caso você deseje um setor estruturado e
+            desafiador.
           </p>
         </div>
 
