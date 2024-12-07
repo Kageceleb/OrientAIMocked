@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.loadingCompass-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background: radial-gradient(circle, rgba(115, 53, 181, 0.5) 5%, rgba(0,212,255,0) 30%);
+}
+
+.loadingCompass-chars {
+    display: flex;
+    align-items: baseline;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.loadingCompass-loading {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.chars-O {
+    position: relative;
+    font-size: 4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.compass-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0);
+    animation: rotateCompass 5s infinite ease-in-out;
+}
+
+.compass-icon {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    transform: scale(0.8, 1.8);
+}
+
+.compass-dot {
+    font-size: 2rem;
+    color: #743794;
+    position: absolute;
+    transform: translate(0.025em, -0.31em);
+}
+
+@keyframes rotateCompass {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+}
