@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Kageceleb/OrientAIMocked/src/static/css/main.5ddc4ae7.css",
-    "main.js": "/Kageceleb/OrientAIMocked/src/static/js/main.d173cce2.js",
-    "index.html": "/Kageceleb/OrientAIMocked/src/index.html",
-    "main.5ddc4ae7.css.map": "/Kageceleb/OrientAIMocked/src/static/css/main.5ddc4ae7.css.map",
-    "main.d173cce2.js.map": "/Kageceleb/OrientAIMocked/src/static/js/main.d173cce2.js.map"
+    "main.css": "/Kageceleb/OrientAIMocked/static/css/main.5ddc4ae7.css",
+    "main.js": "/Kageceleb/OrientAIMocked/static/js/main.d173cce2.js",
+    "index.html": "/Kageceleb/OrientAIMocked/index.html",
+    "main.5ddc4ae7.css.map": "/Kageceleb/OrientAIMocked/static/css/main.5ddc4ae7.css.map",
+    "main.d173cce2.js.map": "/Kageceleb/OrientAIMocked/static/js/main.d173cce2.js.map"
   },
   "entrypoints": [
     "static/css/main.5ddc4ae7.css",
