@@ -8,29 +8,30 @@ const ResultsPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const mockedAnswersPerArea = mockedAnswers.areas;
-  const {areaData} = location.state || { areaData: [] };
+  const { areaData } = location.state || { areaData: [] };
 
   var primaryArea = setPArea();
   var secondaryArea = setSArea();
 
+  var cursos = setCursos();
 
   const handleRetakeTest = () => {
     navigate("/test");
   };
 
-//  function setAreas(){
+  //  function setAreas(){
 
-//     areaData.sort((a, b) => b.percentage -= a.percentage);
+  //     areaData.sort((a, b) => b.percentage -= a.percentage);
 
-//     primaryArea = areaData[0];
-//     secondaryArea = areaData[1];
+  //     primaryArea = areaData[0];
+  //     secondaryArea = areaData[1];
 
-//     console.log(primaryArea);
-//     console.log(secondaryArea);
-//   }
-//   setAreas();
+  //     console.log(primaryArea);
+  //     console.log(secondaryArea);
+  //   }
+  //   setAreas();
 
-  function setPArea(){
+  function setPArea() {
     areaData.sort((a, b) => b.percentage - a.percentage);
 
     var parea = areaData[0].id;
@@ -40,7 +41,7 @@ const ResultsPage = () => {
     return pareaDescricao;
   }
 
-  function setSArea(){
+  function setSArea() {
     areaData.sort((a, b) => b.percentage - a.percentage);
 
     var sarea = areaData[1].id;
@@ -48,6 +49,16 @@ const ResultsPage = () => {
     var sareaDescricao = mockedAnswersPerArea[sarea].comentarios.secundaria;
 
     return sareaDescricao;
+  }
+
+  function setCursos() {
+    areaData.sort((a, b) => b.percentage - a.percentage);
+
+    var parea = areaData[0].id;
+
+    var pcursos = mockedAnswersPerArea[parea].comentarios.cursos;
+
+    return pcursos;
   }
 
   return (
@@ -69,6 +80,23 @@ const ResultsPage = () => {
           <p className="result-second">
             {secondaryArea}
           </p>
+        </div>
+
+        <div className="separator" />
+
+        <h3>Cursos sugeridos</h3>
+
+        <div className="result-comments">
+          {
+            cursos.map((c) => {          
+                return (
+                <div>
+                  <h3>{c.titulo}</h3>
+                  <p className="result-first">{c.descricao}</p>
+                  <a>Conheça o curso</a>
+                </div>);     
+            })
+          }
         </div>
 
         <div className="separator" />
