@@ -8,33 +8,33 @@
         "secundaria": "Embora a Saúde não seja sua área de maior afinidade, ela ainda é uma escolha promissora para suas habilidades e interesses. Esse campo permite que você explore carreiras voltadas ao cuidado e bem-estar das pessoas, podendo trazer realizações pessoais e profissionais.",
         "cursos": [
           {
-            "id": "Biomedicina",
-            "titulo": 1,
+            "id": 1,
+            "titulo": "Biomedicina",
             "descricao": "Formação para atuar em análises clínicas, diagnósticos e pesquisa científica."
           },
           {
-            "id": "Educação Física",
-            "titulo": 2,
+            "id": 2,
+            "titulo": "Educação Física",
             "descricao": "Capacitação para promover saúde e bem-estar por meio de atividades físicas."
           },
           {
-            "id": "Enfermagem",
-            "titulo": 3,
+            "id": 3,
+            "titulo": "Enfermagem",
             "descricao": "Preparo para cuidar da saúde e prestar assistência em diversas áreas médicas."
           },
           {
-            "id": "Estética e Cosmética",
-            "titulo": 4,
+            "id": 4,
+            "titulo": "Estética e Cosmética",
             "descricao": "Desenvolvimento de técnicas para cuidados com a beleza e bem-estar."
           },
           {
-            "id": "Fisioterapia",
-            "titulo": 5,
+            "id": 5,
+            "titulo": "Fisioterapia",
             "descricao": "Treinamento para reabilitar e prevenir disfunções físicas e motoras."
           },
           {
-            "id": "Nutrição",
-            "titulo": 6,
+            "id": 6,
+            "titulo": "Nutrição",
             "descricao": "Formação para planejar dietas e promover alimentação saudável."
           }
         ]
@@ -48,18 +48,18 @@
         "secundaria": "As Ciências Jurídicas podem ser uma alternativa interessante, oferecendo um ambiente dinâmico e com potencial para aplicar suas habilidades analíticas e de comunicação. Este campo pode ser um caminho alternativo valioso, caso você deseje um setor estruturado e desafiador.",
         "cursos": [
           {
-            "id": "Direito",
-            "titulo": 1,
+            "id": 1,
+            "titulo": "Direito",
             "descricao": "Capacitação em leis e justiça para atuar como advogado ou em carreiras jurídicas."
           },
           {
-            "id": "Segurança Privada",
-            "titulo": 2,
+            "id": 2,
+            "titulo": "Segurança Privada",
             "descricao": "Preparo para atuar na proteção de pessoas, bens e informações."
           },
           {
-            "id": "Serviços Notariais e Registrais",
-            "titulo": 3,
+            "id": 3,
+            "titulo": "Serviços Notariais e Registrais",
             "descricao": "Capacitação para atividades em cartórios e registros públicos."
           }
         ]
@@ -73,33 +73,33 @@
         "secundaria": "Embora TI e Computação não sejam a principal sugestão, esta área ainda oferece um potencial considerável. Suas habilidades podem ser bem aplicadas em carreiras que envolvem tecnologia e inovação, proporcionando flexibilidade e desenvolvimento constante.",
         "cursos": [
           {
-            "id": "Análise e Desenvolvimento de Sistemas",
-            "titulo": 1,
+            "id": 1,
+            "titulo": "Análise e Desenvolvimento de Sistemas",
             "descricao": "Preparo para criar e gerenciar software."
           },
           {
-            "id": "Ciência da Computação",
-            "titulo": 2,
+            "id": 2,
+            "titulo": "Ciência da Computação",
             "descricao": "Estudo avançado de tecnologia, algoritmos e programação."
           },
           {
-            "id": "Gestão da Tecnologia da Informação",
-            "titulo": 3,
+            "id": 3,
+            "titulo": "Gestão da Tecnologia da Informação",
             "descricao": "Preparo para gerenciar infraestrutura e projetos de TI."
           },
           {
-            "id": "Jogos Digitais",
-            "titulo": 4,
+            "id": 4,
+            "titulo": "Jogos Digitais",
             "descricao": "Desenvolvimento de habilidades para criar jogos e experiências interativas."
           },
           {
-            "id": "Redes de Computadores",
-            "titulo": 5,
+            "id": 5,
+            "titulo": "Redes de Computadores",
             "descricao": "Formação para projetar e manter redes de comunicação."
           },
           {
-            "id": "Sistemas de Informação",
-            "titulo": 6,
+            "id": 6,
+            "titulo": "Sistemas de Informação",
             "descricao": "Preparo para integrar tecnologia e negócios"
           }
         ]
@@ -113,63 +113,63 @@
         "secundaria": "Gestão de Negócios também se mostra uma boa alternativa, mesmo que não seja a principal recomendação. Este campo permite desenvolver habilidades em liderança e organização, que são essenciais e aplicáveis em vários tipos de empresas e setores.",
         "cursos": [
           {
-            "id": "Administração",
-            "titulo": 1,
+            "id": 1,
+            "titulo": "Administração",
             "descricao": "Formação para gerenciar recursos e liderar organizações."
           },
           {
-            "id": "Ciências Contábeis",
-            "titulo": 2,
+            "id": 2,
+            "titulo": "Ciências Contábeis",
             "descricao": "Preparo para controlar e analisar as finanças de empresas."
           },
           {
-            "id": "Ciências Econômicas",
-            "titulo": 3,
+            "id": 3,
+            "titulo": "Ciências Econômicas",
             "descricao": "Estudo do mercado, economia e estratégias financeiras."
           },
           {
-            "id": "Gestão ComerciaL",
-            "titulo": 4,
+            "id": 4,
+            "titulo": "Gestão ComerciaL",
             "descricao": "Formação para gerenciar equipes e estratégias de vendas."
           },
           {
-            "id": "Gestão da Qualidade",
-            "titulo": 5,
+            "id": 5,
+            "titulo": "Gestão da Qualidade",
             "descricao": "Desenvolvimento de processos para garantir eficiência e excelência."
           },
           {
-            "id": "Gestão de Recursos Humanos",
-            "titulo": 6,
+            "id": 6,
+            "titulo": "Gestão de Recursos Humanos",
             "descricao": "Capacitação para gerenciar talentos e equipes."
           },
           {
-            "id": "Gestão Financeira",
-            "titulo": 7,
+            "id": 7,
+            "titulo": "Gestão Financeira",
             "descricao": "Formação para planejar e controlar finanças corporativas."
           },
           {
-            "id": "Logística",
-            "titulo": 8,
+            "id": 8,
+            "titulo": "Logística",
             "descricao": "Desenvolvimento de soluções para transporte, estoque e distribuição."
           },
           {
-            "id": "Marketing",
-            "titulo": 9,
+            "id": 9,
+            "titulo": "Marketing",
             "descricao": "Estudo de estratégias para atrair e fidelizar clientes."
           },
           {
-            "id": "Marketing Digital",
-            "titulo": 10,
+            "id": 10,
+            "titulo": "Marketing Digital",
             "descricao": "Formação para estratégias de promoção no ambiente online."
           },
           {
-            "id": "Negócios Digitais",
-            "titulo": 11,
+            "id": 11,
+            "titulo": "Negócios Digitais",
             "descricao": "Capacitação para empreender e inovar em mercados digitais."
           },
           {
-            "id": "Processos Gerenciais",
-            "titulo": 12,
+            "id": 12,
+            "titulo": "Processos Gerenciais",
             "descricao": "Formação em gestão de pequenas e médias empresas."
           }
         ]
@@ -183,23 +183,23 @@
         "secundaria": "A área de Humanas pode ser uma alternativa interessante para seu perfil, mesmo não sendo a principal sugestão. Suas habilidades interpessoais e de comunicação podem ser bem aplicadas em diversos contextos, fazendo desta área uma escolha rica em propósito e com oportunidades variadas.",
         "cursos": [
           {
-            "id": "História",
-            "titulo": 1,
+            "id": 1,
+            "titulo": "História",
             "descricao": "Estudo e análise do passado para compreender o presente e construir o futuro."
           },
           {
-            "id": "Pedagogia",
-            "titulo": 2,
+            "id": 2,
+            "titulo": "Pedagogia",
             "descricao": "Capacitação para atuar na educação infantil e no ensino fundamental."
           },
           {
-            "id": "Psicologia",
-            "titulo": 3,
+            "id": 3,
+            "titulo": "Psicologia",
             "descricao": "Desenvolvimento de habilidades para compreender e promover a saúde mental."
           },
           {
-            "id": "Serviço Social",
-            "titulo": 4,
+            "id": 4,
+            "titulo": "Serviço Social",
             "descricao": "Formação para intervir em questões sociais e promover cidadania."
           }
         ]
