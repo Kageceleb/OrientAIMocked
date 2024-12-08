@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Dropdown } from "../components/Dropdown.tsx";
 import LoadingCompass from "../components/LoadingCompass";
+import Logo from '../components/Logo';
 import "./styles.css";
 
 const SignupPage = () => {
@@ -21,6 +22,7 @@ const SignupPage = () => {
 
   return (
     <div className="container-gradient">
+      <Logo />
       <h1>Cadastro</h1>
       <form className="white-card">
         <div className="signup-container">

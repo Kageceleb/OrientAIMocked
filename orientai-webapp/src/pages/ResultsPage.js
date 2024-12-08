@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PieChart from "../components/PieChart";
 import "./styles.css";
+import Logo from '../components/Logo';
 import mockedAnswers from "../respostasAreasIA.json";
 
 const ResultsPage = () => {
@@ -63,6 +64,7 @@ const ResultsPage = () => {
 
   return (
     <div className="container-gradient-result">
+      <Logo />
       <div className="result-container">
         <header className="result-header">
           <h1>Resultado do seu Teste</h1>
@@ -79,11 +81,11 @@ const ResultsPage = () => {
             </p>
           </div>
 
-          <div className="white-card-result">
+          {/* <div className="white-card-result">
             <p className="result-second">
               {secondaryArea}
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div className="separator" />

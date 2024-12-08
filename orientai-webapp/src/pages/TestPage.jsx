@@ -130,12 +130,12 @@ const TestPage = () => {
 
   return (
     <div className="container-gradient">
-      <div className="test-container">
-        <header className="test-header">
-          <div className="test-logo">
+          <div>
             <Logo />
             <h2>FADERGS</h2>
           </div>
+      <div className="test-container">
+        <header className="test-header">
           <p>
             Avalie as situações abaixo para descobrir sua área de interesse!
           </p>
@@ -191,7 +191,7 @@ const TestPage = () => {
 
         {/* Rodapé */}
         <footer className="test-footer">
-          <p>AnimaHub © 2024 - OrientAI - Professor Flávio Treib</p>
+          <p>AnimaHub © 2024 - Squad OrientAI</p>
         </footer>
       </div>
     </div>
