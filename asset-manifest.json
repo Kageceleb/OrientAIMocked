@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/orientai-mocked/static/css/main.1efb530b.css",
-    "main.js": "/orientai-mocked/static/js/main.74879d7e.js",
-    "index.html": "/orientai-mocked/index.html",
-    "main.1efb530b.css.map": "/orientai-mocked/static/css/main.1efb530b.css.map",
-    "main.74879d7e.js.map": "/orientai-mocked/static/js/main.74879d7e.js.map"
+    "main.css": "/OrientAIMocked/static/css/main.1efb530b.css",
+    "main.js": "/OrientAIMocked/static/js/main.74879d7e.js",
+    "index.html": "/OrientAIMocked/index.html",
+    "main.1efb530b.css.map": "/OrientAIMocked/static/css/main.1efb530b.css.map",
+    "main.74879d7e.js.map": "/OrientAIMocked/static/js/main.74879d7e.js.map"
   },
   "entrypoints": [
     "static/css/main.1efb530b.css",
