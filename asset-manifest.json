@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/OrientAIMocked/static/css/main.1efb530b.css",
-    "main.js": "/OrientAIMocked/static/js/main.4ba1bbe9.js",
+    "main.js": "/OrientAIMocked/static/js/main.b34a56c6.js",
     "index.html": "/OrientAIMocked/index.html",
     "main.1efb530b.css.map": "/OrientAIMocked/static/css/main.1efb530b.css.map",
-    "main.4ba1bbe9.js.map": "/OrientAIMocked/static/js/main.4ba1bbe9.js.map"
+    "main.b34a56c6.js.map": "/OrientAIMocked/static/js/main.b34a56c6.js.map"
   },
   "entrypoints": [
     "static/css/main.1efb530b.css",
-    "static/js/main.4ba1bbe9.js"
+    "static/js/main.b34a56c6.js"
   ]
 }
