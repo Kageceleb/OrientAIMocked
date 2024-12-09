@@ -10,7 +10,7 @@ import SignupPage from "./pages/SignupPage.jsx";
 
 const App = () => {
   return (
-    <Router basename="/OrientAIMocked">
+    <Router basename="/">
       <div className="App">
         <Routes>
           <Route path="/" element={<WelcomePage />} />
