@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PieChart from "../components/PieChart";
 import "./styles.css";
-import Logo from '../components/Logo';
+import Logo from "../components/Logo";
 import mockedAnswers from "../respostasAreasIA.json";
 
 const ResultsPage = () => {
@@ -76,9 +76,7 @@ const ResultsPage = () => {
 
         <div className="result-comments">
           <div className="white-card-result">
-            <p className="result-first">
-              {primaryArea}
-            </p>
+            <p className="result-first">{primaryArea}</p>
           </div>
 
           {/* <div className="white-card-result">
@@ -93,16 +91,17 @@ const ResultsPage = () => {
         <h3>Cursos sugeridos</h3>
 
         <div className="result-comments">
-          {
-            cursos.map((c) => {
-              return (
-                <div className="white-card-result">
-                  <h3>{c.titulo}</h3>
-                  <p className="result-first">{c.descricao}</p>
-                  <a href="#">Conheça o curso</a>
-                </div>);
-            })
-          }
+          {cursos.map((c) => {
+            return (
+              <div className="white-card-result">
+                <h3>{c.titulo}</h3>
+                <p className="result-first">{c.descricao}</p>
+                <a href="https://landing.fadergs.edu.br/curso/biomedicina-bacharelado">
+                  Conheça o curso
+                </a>
+              </div>
+            );
+          })}
         </div>
 
         <div className="separator" />
@@ -118,7 +117,7 @@ const ResultsPage = () => {
           <p>AnimaHub © 2024 - OrientAI - Professor Flávio Treib</p>
         </footer>
       </div>
-    </div >
+    </div>
   );
 };
 
